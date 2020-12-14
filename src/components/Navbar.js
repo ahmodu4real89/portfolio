@@ -10,7 +10,9 @@ function Navbar() {
           <NavLink to='/'
            exact
            activeClassName="text-white"
-           className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">Lushi</NavLink>
+           className="inflex-flex items-center py-3 px-3 my-6 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">
+             SMARTDEV
+             </NavLink>
           <NavLink to='/post' 
           activeClassName="text-red-100 bg-red-700"
            className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800">Blog Posts</NavLink>
